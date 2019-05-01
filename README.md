@@ -1,3 +1,5 @@
+# os-critical-section-problem
+
 This project is a simple simulation of mutex locks, which is one of solutions for critical section problem in the operating system.
 
 First, you need to install all the depenencies of npm.
