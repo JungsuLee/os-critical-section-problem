@@ -1,0 +1,13 @@
+@import './components/Main/styles.scss';
+@import './components/CriticalSectionProblem/styles.scss';
+@import './components/CriticalSection/styles.scss';
+@import './components/MutexLocks/styles.scss';
+
+button {
+  font-size: 15px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: lightblue;
+}

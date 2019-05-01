@@ -1,0 +1,12 @@
+.critical-section {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 500px;
+  border: 1px solid;
+  align-items: center;
+
+  .critical-section-textarea {
+    height: 350px;
+  }
+}

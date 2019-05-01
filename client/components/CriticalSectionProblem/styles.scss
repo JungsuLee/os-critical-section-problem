@@ -1,0 +1,51 @@
+.critical-section-problem__body {
+  display: flex;
+  justify-content: space-between;
+
+  .user {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: center;
+  }
+
+  .user-view__head {
+    height: 80px;
+    width: 80%;
+    font-size: 20px;
+    border: 1px solid;
+    overflow: scroll;
+
+    .user-contents {
+      display: flex;
+      justify-content: space-between;
+    }
+    .user-contents:hover {
+      background-color: lightblue;
+    }
+  }
+
+  textarea {
+    font-size: 25px;
+    width: 79%;
+  }
+
+  .blocked {
+    color: orangered;
+  }
+
+  .black-font {
+    color: black;
+  }
+
+  .btn-save {
+    margin-top: 10px;
+  }
+
+  label {
+    font-size: 25px;
+    height: 30px;
+    margin-top: 20px;
+  }
+}
+

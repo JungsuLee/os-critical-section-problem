@@ -1,0 +1,23 @@
+.mutual-exclusion__header {
+  display: flex;
+  align-items: inherit;
+  .mutual-exclusion-flag {
+    border: 1px solid;
+    border-radius: 16px;
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+  }
+}
+
+.mutual-exclusion-flag.green {
+  background-color: lightgreen;
+}
+
+.mutual-exclusion-flag.red {
+  background-color: orangered;
+}
+
+.mutual-exclusion-flag.yellow {
+  background-color: yellow;
+}
